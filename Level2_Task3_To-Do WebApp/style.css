@@ -1,0 +1,106 @@
+* {
+  margin: 5px;
+  padding: 0;
+  font-family: 'Comic Neue', cursive;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(320deg, #ffef78, #63c9b4)no-repeat fixed;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.container {
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.01);
+  border-radius: 50px;
+  box-shadow: #152b56 5px 8px 30px;
+  color: #232323;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.30);
+  border: 9px solid #152b56;
+  max-width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+.txtb {
+  width: 100%;
+  border: none;
+  box-shadow: #989696 3px 8px 30px;
+  border-bottom: 5px solid #989696;
+  border-radius: 32px;
+  background: whitesmoke;
+  padding: 17px;
+  outline: none;
+  font-size: 25px;
+}
+
+h1 {
+  color: #152b56;
+  text-align: center;
+  font-size: 70px;
+  text-decoration: underline;
+  margin: 20px;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 45px;
+  text-align: center;
+  color: darkslategray;
+}
+
+h2 input {
+  font-style: italic;
+}
+
+.heading {
+  text-decoration: underline;
+  font-size: 35px;
+  margin: 18px;
+  color: #005029;
+}
+
+h3 {
+  margin: 15px 0;
+  font-size: 25px;
+  color: #005029;
+}
+
+.greeting input {
+  color: darkslategray;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 45px;
+}
+
+.task {
+  font-size: 25px;
+  box-shadow: #152b56 4px 6px 30px;
+  border: 5px solid #152b56;
+  border-radius: 36px;
+  width: 100%;
+  background: rgb(255 0 0 / 72%);
+  padding: 18px;
+  margin: 6px 0;
+  overflow: hidden;
+  color: white;
+}
+
+.task i {
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.comp .task {
+  background: rgb(0 255 64 / 67%);
+  color: #fff;
+}
